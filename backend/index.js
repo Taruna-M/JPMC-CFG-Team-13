@@ -28,7 +28,7 @@ app.use(express.json()); // JSON body parser
 app.use(cookieParser()); // Parse cookies
 
 // Routes
-app.use("/api/auth", authRoutes);
+app.use("/api/v1/auth", authRoutes);
 
 // Health check
 app.get("/", (req, res) => {
