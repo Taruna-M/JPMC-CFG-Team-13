@@ -32,7 +32,7 @@ app.use("/api/v1/auth", authRoutes);
 
 // Health check
 app.get("/", (req, res) => {
-  res.send("🌍 CareerCompass API is running...");
+  res.send("Server running on 5000");
 });
 
 // Start server
