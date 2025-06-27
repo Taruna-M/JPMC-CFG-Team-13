@@ -1,7 +1,7 @@
 'use client'
 import { motion } from 'framer-motion';
-import ChartSection from "./components/ChartSection";
-import DataTable from "./components/DataTable";
+import ChartSection from '@/components/ChartSection';
+import DataTable from '@/components/DataTable';
 
 export default function Home() {
   return (
